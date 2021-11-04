@@ -10,7 +10,7 @@
 		padding: 0;
 
 		& h2 {
-			border: 1px solid #000;
+			// border: 1px solid #000;
 			margin: 0 0 0 0;
 			width: 15rem;
 		}
@@ -48,7 +48,7 @@
 			& h3 {
 				margin: 0.1rem 0 0 0.3rem;
 				width: 60%;
-				border: 1px solid white;
+				// border: 1px solid white;
 				padding: 0;
 				font-size: 1.4rem;
 				position: relative;
@@ -56,7 +56,7 @@
 				& span {
 					margin: 0 0 0 1rem;
 					padding: 0 0 0 0;
-					border: 1px solid white;
+					// border: 1px solid white;
 				}
 			}
 
@@ -77,6 +77,23 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center center;
+		position: relative;
+
+		& .btn {
+			position: absolute;
+			top: 12.9rem;
+			left: 1.1rem;
+			width: 13.5rem;
+			background-color: #000000;
+			text-align: left;
+			font-size: 1rem;
+			border: none;
+			border-radius: 0.2px;
+			height: 2.5rem;
+			padding: 0 0 0 1rem;
+
+			letter-spacing: 1.5px;
+		}
 	}
 }
 
@@ -88,4 +105,21 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	position: relative;
+
+	& .btn {
+		position: absolute;
+		top: 12.9rem;
+		left: 1.1rem;
+		width: 12.2rem;
+		background-color: #000000;
+		text-align: left;
+		font-size: 1rem;
+		border: none;
+		border-radius: 0.2px;
+		height: 2.5rem;
+		padding: 0 0 0 1rem;
+
+		letter-spacing: 1.5px;
+	}
 }

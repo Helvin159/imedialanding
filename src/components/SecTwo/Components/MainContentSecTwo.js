@@ -28,10 +28,10 @@ const MainContentSecTwo = () => {
 				</Col>
 				<Col md={{ span: 3 }} className='sec__two__row__col__two'>
 					<Container className='sec__two__cont__one'>
-						<Button variant='danger'>Rangemasters</Button>
+						<Button>Rangemasters</Button>
 					</Container>
 					<Container className='sec__two__cont__two'>
-						<Button variant='danger'>Rangefinders</Button>
+						<Button>Rangefinders</Button>
 					</Container>
 				</Col>
 			</Row>
