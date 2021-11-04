@@ -10,13 +10,56 @@
 		// border: '1px solid #000';
 	}
 
+	& .carousel__container {
+		position: relative;
+	}
+
+	& .carousel-control-prev {
+		// background-color: #000000;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0;
+		width: 14.1%;
+		background: url('assets/Layer77.png');
+		// border: 1px solid #000000;
+	}
+
+	& .carousel-control-next {
+		// background-color: #000000;
+		// border: 1px solid #000000;
+		position: absolute;
+		width: 12.9%;
+		top: 0;
+		right: 0;
+		margin: 0;
+		background: url('assets/Layer78.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	& .carousel-control-next-icon,
+	.carousel-control-prev-icon {
+		background-color: #000000 !important;
+	}
+
 	&__carousel__item {
-		width: 100%;
+		max-width: 75%;
+		width: 71.3%;
+
+		position: relative;
+		// width: 910px;
+		// width: 100%;
+		// max-width: 1000px;
+		height: 487px;
+		margin: 0 15% 0 15%;
+		left: 0;
 		&__col__one {
 			height: 487px;
 
 			// width: 650px;
-			min-width: 70%;
+			min-width: 69.5%;
 			// border: '10px solid #0f0';
 			padding: 0;
 			background: url('assets/Layer73.png');
