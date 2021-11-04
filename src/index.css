@@ -299,11 +299,10 @@ body {
       background-size: cover; }
       .sec__three__carousel__item__col__one .container {
         position: absolute;
-        top: 16.9rem;
-        left: 0.9rem;
+        top: 17rem;
+        left: 1.5rem;
         margin: 0;
         padding: 0;
-        border: 1px solid white;
         width: 53%;
         color: white; }
         .sec__three__carousel__item__col__one .container h3 {
@@ -312,37 +311,43 @@ body {
         .sec__three__carousel__item__col__one .container p {
           letter-spacing: 0.3px;
           margin: 0;
-          border: 1px solid white;
           padding: auto; }
         .sec__three__carousel__item__col__one .container p:first-child {
           margin: auto;
-          border: 1px solid white;
           padding: 0; }
         .sec__three__carousel__item__col__one .container p:last-child {
           font-size: 0.8rem;
-          border: none;
           padding: 0.75rem 0 0 0; }
         .sec__three__carousel__item__col__one .container hr {
           width: 9.8%;
           height: 4px;
           margin: 0.7rem 0 0 0;
-          background-color: white;
-          border: 1px solid #fe1; }
+          background-color: white; }
     .sec__three__carousel__item__col__two {
       min-width: 5%;
       padding: 0;
       background: url("assets/Layer76.png");
       background-repeat: no-repeat;
-      background-size: cover; }
+      background-size: cover;
+      position: relative; }
       .sec__three__carousel__item__col__two .container-fluid {
         margin: 0;
         padding: 0;
         position: relative; }
       .sec__three__carousel__item__col__two .container {
         position: absolute;
-        bottom: 1rem;
-        left: 0;
-        padding: 0; }
+        top: 23rem;
+        left: 1rem;
+        padding: 0;
+        color: white;
+        width: 88%; }
+        .sec__three__carousel__item__col__two .container h3 {
+          font-size: 1.2rem;
+          letter-spacing: 0.7px;
+          line-height: 1.5rem;
+          font-weight: 600; }
+        .sec__three__carousel__item__col__two .container p {
+          font-size: 0.8rem; }
 
 .footer {
   padding: 0;

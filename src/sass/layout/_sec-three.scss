@@ -63,11 +63,11 @@
 
 			& .container {
 				position: absolute;
-				top: 16.9rem;
-				left: 0.9rem;
+				top: 17rem;
+				left: 1.5rem;
 				margin: 0;
 				padding: 0;
-				border: 1px solid white;
+				// border: 1px solid white;
 				width: 53%;
 				color: white;
 
@@ -79,19 +79,19 @@
 				& p {
 					letter-spacing: 0.3px;
 					margin: 0;
-					border: 1px solid white;
+					// border: 1px solid white;
 					padding: auto;
 				}
 
 				& p:first-child {
 					margin: auto;
-					border: 1px solid white;
+					// border: 1px solid white;
 					padding: 0;
 				}
 
 				& p:last-child {
 					font-size: 0.8rem;
-					border: none;
+					// border: none;
 					padding: 0.75rem 0 0 0;
 				}
 
@@ -100,7 +100,7 @@
 					height: 4px;
 					margin: 0.7rem 0 0 0;
 					background-color: white;
-					border: 1px solid #fe1;
+					// border: 1px solid #fe1;
 				}
 			}
 		}
@@ -113,6 +113,7 @@
 			background: url('assets/Layer76.png');
 			background-repeat: no-repeat;
 			background-size: cover;
+			position: relative;
 
 			& .container-fluid {
 				margin: 0;
@@ -122,9 +123,22 @@
 
 			& .container {
 				position: absolute;
-				bottom: 1rem;
-				left: 0;
+				top: 23rem;
+				left: 1rem;
 				padding: 0;
+				color: white;
+				width: 88%;
+
+				& h3 {
+					font-size: 1.2rem;
+					letter-spacing: 0.7px;
+					line-height: 1.5rem;
+					font-weight: 600;
+				}
+
+				& p {
+					font-size: 0.8rem;
+				}
 			}
 		}
 	}
