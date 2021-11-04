@@ -9,20 +9,14 @@ const Hero = () => {
 	return (
 		<Container className='hero__container' fluid>
 			<Row className='hero__container__row'>
-				<Col
-					className='hero__container__row__col__one'
-					md={{ span: 8 }}
-					style={{
-						backgroundColor: '#fff',
-						margin: '0',
-						padding: '0',
-						width: '845px',
-					}}>
+				<Col className='hero__container__row__col__one' md={{ span: 8 }}>
 					<HeroCarousel />
 				</Col>
-				<Col className='hero__container__row__col col__two' md={{ span: 3 }}>
+				<Col
+					className='hero__container__row__col__two col__two'
+					md={{ span: 3 }}>
 					<Button variant='danger'>ONLINE</Button>
-					<Container className='col__two__caption'>
+					<Container className='hero__container__row__col__two__caption'>
 						<p>LEICA AKADEMIE</p>
 						<h3>Leica Q Owners Workshops</h3>
 						<p>

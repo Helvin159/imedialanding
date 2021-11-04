@@ -77,64 +77,110 @@ body {
     top: 1.2rem;
     left: 5.1rem; }
 
-.hero__container__row .col__two {
-  background-color: #000000;
-  margin: 0;
-  padding: 0;
-  width: 349px;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/qimage.png");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative; }
-  .hero__container__row .col__two button {
-    position: absolute;
-    top: 1.3rem;
-    right: 1rem;
-    width: 5.7rem;
-    height: 1.8rem;
-    border-radius: 2px;
+.hero__container__row {
+  width: auto; }
+  .hero__container__row__col__one {
+    background-color: #fff;
+    margin: 0;
     padding: 0;
-    font-size: 0.8rem;
-    background-color: var(--red-button); }
-  .hero__container__row .col__two button:last-child {
-    position: absolute;
-    top: 13.4rem;
-    right: 9.8rem;
-    width: 10.5rem;
-    height: 2.5rem;
-    background-color: #000;
-    text-align: left;
-    font-size: 1.125rem;
-    letter-spacing: 1.1px;
-    border: none;
-    padding: 0 0 0 0.9rem; }
-  .hero__container__row .col__two__caption {
-    position: absolute;
-    top: 10.7rem;
-    left: 0.8rem;
-    color: white; }
-    .hero__container__row .col__two__caption p {
-      text-align: left;
-      font-size: 0.9rem;
-      color: var(--logo-red);
+    width: 845px;
+    border: 1px solid #000; }
+  .hero__container__row__col__two {
+    border: 1px solid #f1f;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    width: 349px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("assets/qimage.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    .hero__container__row__col__two button {
+      position: absolute;
+      top: 1.3rem;
+      right: 1rem;
+      width: 5.7rem;
+      height: 1.8rem;
+      border-radius: 2px;
       padding: 0;
-      margin: 0 0 0 0;
-      line-height: auto; }
-    .hero__container__row .col__two__caption p:nth-child(3) {
+      font-size: 0.8rem;
+      background-color: var(--red-button); }
+    .hero__container__row__col__two button:last-child {
+      position: absolute;
+      top: 13.4rem;
+      right: 9.8rem;
+      width: 10.5rem;
+      height: 2.5rem;
+      background-color: #000;
       text-align: left;
-      font-size: 1.2rem;
-      width: 13rem;
-      color: white;
-      margin-top: 0.5rem;
-      line-height: 1.6rem; }
-      .hero__container__row .col__two__caption p:nth-child(3) span {
-        font-size: 1.5rem; }
-    .hero__container__row .col__two__caption h3 {
-      text-align: left;
-      font-size: 36px;
-      padding: 0;
-      margin: 0; }
+      font-size: 1.125rem;
+      letter-spacing: 1.1px;
+      border: none;
+      padding: 0 0 0 0.9rem; }
+    .hero__container__row__col__two__caption {
+      position: absolute;
+      top: 10.7rem;
+      left: 0.8rem;
+      color: white; }
+      .hero__container__row__col__two__caption p {
+        text-align: left;
+        font-size: 0.9rem;
+        color: var(--logo-red);
+        padding: 0;
+        margin: 0 0 0 0;
+        line-height: auto; }
+      .hero__container__row__col__two__caption p:nth-child(3) {
+        text-align: left;
+        font-size: 1.2rem;
+        width: 13rem;
+        color: white;
+        margin-top: 0.5rem;
+        line-height: 1.6rem; }
+        .hero__container__row__col__two__caption p:nth-child(3) span {
+          font-size: 1.5rem; }
+      .hero__container__row__col__two__caption h3 {
+        text-align: left;
+        font-size: 36px;
+        padding: 0;
+        margin: 0; }
+
+.hero__container__carousel {
+  height: 478px; }
+  .hero__container__carousel__row {
+    width: 100%; }
+    .hero__container__carousel__row__col__one {
+      width: 60%; }
+      .hero__container__carousel__row__col__one img {
+        height: 288px;
+        margin-top: 6.2rem;
+        margin-left: 1.6rem; }
+    .hero__container__carousel__row__col__two {
+      position: relative; }
+      .hero__container__carousel__row__col__two__caption {
+        position: absolute;
+        top: 11.2rem;
+        left: 1rem;
+        width: 90%;
+        text-align: left;
+        padding: 0; }
+        .hero__container__carousel__row__col__two__caption h3 {
+          font-size: 2.2rem;
+          letter-spacing: 0.1px;
+          padding: 0;
+          margin: 0; }
+        .hero__container__carousel__row__col__two__caption p {
+          margin: 0 0 0 0;
+          padding: 0;
+          font-size: 1.3rem; }
+        .hero__container__carousel__row__col__two__caption button {
+          background-color: var(--red-button);
+          width: 7rem;
+          margin: 1.1rem 0 0 0;
+          height: 2.6rem;
+          border-radius: 0.1px;
+          font-size: 0.8rem;
+          font-weight: 600; }
 
 .sec__one {
   width: 1110px;
