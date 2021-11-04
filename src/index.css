@@ -212,25 +212,58 @@ body {
   padding: 0;
   margin: 5rem auto 0 5.3rem;
   text-align: left; }
-
-.sec__two__row__col__one {
-  padding: 0;
-  margin: 0.85rem 0 0 0.65rem;
-  width: 730px;
-  background: url("assets/Layer128.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  background-position: center center; }
-
-.sec__two__cont__one {
-  width: 350px;
-  height: 263px;
-  margin: 0.9rem 0 0 1.2rem;
-  background: url("assets/Layer129.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center; }
+  .sec__two__main {
+    padding: 0; }
+    .sec__two__main h2 {
+      border: 1px solid #000;
+      margin: 0 0 0 0;
+      width: 15rem; }
+  .sec__two__row__col__one {
+    padding: 0;
+    margin: 0.85rem 0 0 0.65rem;
+    width: 730px;
+    background: url("assets/Layer128.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center; }
+  .sec__two__row__col__one__caption {
+    background-color: #000000;
+    color: white;
+    position: absolute;
+    top: 23.6rem;
+    left: 1.35rem;
+    width: 52%;
+    height: 10rem;
+    padding: 0; }
+    .sec__two__row__col__one__caption p {
+      color: var(--font-gray);
+      margin: 1rem 0 0 1.8rem;
+      font-size: 0.8rem; }
+    .sec__two__row__col__one__caption h3 {
+      margin: 0.1rem 0 0 0.3rem;
+      width: 60%;
+      border: 1px solid white;
+      padding: 0;
+      font-size: 1.4rem;
+      position: relative; }
+      .sec__two__row__col__one__caption h3 span {
+        margin: 0 0 0 1rem;
+        padding: 0 0 0 0;
+        border: 1px solid white; }
+    .sec__two__row__col__one__caption hr {
+      background-color: #fff;
+      height: 0.2rem;
+      width: 38%;
+      margin: 2.2rem 0 0 1.8rem; }
+  .sec__two .sec__two__cont__one {
+    width: 350px;
+    height: 263px;
+    margin: 0.9rem 0 0 1.2rem;
+    background: url("assets/Layer129.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
 
 .sec__two__cont__two {
   width: 350px;
@@ -240,21 +273,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
-
-.sec__two__row__one__caption {
-  background-color: #000000;
-  color: white;
-  position: absolute;
-  bottom: 2rem;
-  left: 1rem;
-  width: 25rem;
-  height: 10rem; }
-  .sec__two__row__one__caption p {
-    color: var(--font-gray); }
-  .sec__two__row__one__caption hr {
-    background-color: #fff;
-    height: 0.2rem;
-    width: 45%; }
 
 .sec__three {
   margin: 4.7rem 0 0 0;
@@ -288,7 +306,7 @@ body {
     width: 71.2%;
     position: relative;
     height: 487px;
-    margin: 0 14.3% 0 14.3%;
+    margin: 0 15% 0 15%;
     left: 0; }
     .sec__three__carousel__item__col__one {
       height: 487px;

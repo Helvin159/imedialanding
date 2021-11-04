@@ -5,30 +5,79 @@
 	margin: 5rem auto 0 5.3rem;
 	text-align: left;
 	// border: 1px solid #000;
-}
 
-.sec__two__row {
-	&__col__one {
-		// border: 1px solid #000;
+	&__main {
 		padding: 0;
-		margin: 0.85rem 0 0 0.65rem;
-		width: 730px;
-		background: url('assets/Layer128.png');
+
+		& h2 {
+			border: 1px solid #000;
+			margin: 0 0 0 0;
+			width: 15rem;
+		}
+	}
+
+	&__row {
+		&__col__one {
+			// border: 1px solid #000;
+			padding: 0;
+			margin: 0.85rem 0 0 0.65rem;
+			width: 730px;
+			background: url('assets/Layer128.png');
+			background-size: cover;
+			background-repeat: no-repeat;
+			position: relative;
+			background-position: center center;
+		}
+
+		&__col__one__caption {
+			background-color: #000000;
+			color: white;
+			position: absolute;
+			top: 23.6rem;
+			left: 1.35rem;
+			width: 52%;
+			height: 10rem;
+			padding: 0;
+
+			& p {
+				color: var(--font-gray);
+				margin: 1rem 0 0 1.8rem;
+				font-size: 0.8rem;
+			}
+
+			& h3 {
+				margin: 0.1rem 0 0 0.3rem;
+				width: 60%;
+				border: 1px solid white;
+				padding: 0;
+				font-size: 1.4rem;
+				position: relative;
+
+				& span {
+					margin: 0 0 0 1rem;
+					padding: 0 0 0 0;
+					border: 1px solid white;
+				}
+			}
+
+			& hr {
+				background-color: #fff;
+				height: 0.2rem;
+				width: 38%;
+				margin: 2.2rem 0 0 1.8rem;
+			}
+		}
+	}
+
+	& .sec__two__cont__one {
+		width: 350px;
+		height: 263px;
+		margin: 0.9rem 0 0 1.2rem;
+		background: url('assets/Layer129.png');
 		background-size: cover;
 		background-repeat: no-repeat;
-		position: relative;
 		background-position: center center;
 	}
-}
-
-.sec__two__cont__one {
-	width: 350px;
-	height: 263px;
-	margin: 0.9rem 0 0 1.2rem;
-	background: url('assets/Layer129.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 }
 
 .sec__two__cont__two {
@@ -39,24 +88,4 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-}
-
-.sec__two__row__one__caption {
-	background-color: #000000;
-	color: white;
-	position: absolute;
-	bottom: 2rem;
-	left: 1rem;
-	width: 25rem;
-	height: 10rem;
-
-	& p {
-		color: var(--font-gray);
-	}
-
-	& hr {
-		background-color: #fff;
-		height: 0.2rem;
-		width: 45%;
-	}
 }

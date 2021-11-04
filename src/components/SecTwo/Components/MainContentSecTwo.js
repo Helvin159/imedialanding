@@ -7,33 +7,23 @@ import Button from 'react-bootstrap/Button';
 
 const MainContentSecTwo = () => {
 	return (
-		<div>
-			<Container
-				style={{
-					padding: '0',
-				}}>
-				<h2
-					style={{
-						border: '1px solid #000',
-						margin: '0 0 0 0',
-						width: '15rem',
-					}}>
-					SPORT OPTICS
-				</h2>
+		<div className='sec__two__main'>
+			<Container>
+				<h2>SPORT OPTICS</h2>
 			</Container>
 			<Row className='sec__two__row'>
 				<Col md={{ span: 8 }} className='sec__two__row__col__one'>
-					<Container className='sec__two__row__one__caption'>
+					<Container className='sec__two__row__col__one__caption'>
 						<hr />
 						<p>LEISURE</p>
-						<div style={{ width: '16rem' }}>
+						<Container>
 							<h3>
 								FULL SIZE BINOCULARS
 								<span>
 									<img src='assets/redArrow.png' alt='Red Arrow Button' />
 								</span>
 							</h3>
-						</div>
+						</Container>
 					</Container>
 				</Col>
 				<Col md={{ span: 3 }} className='sec__two__row__col__two'>
