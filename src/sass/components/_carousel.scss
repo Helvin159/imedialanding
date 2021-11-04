@@ -1,0 +1,40 @@
+.sec__three .carousel__container {
+	position: relative;
+	// padding: 0 0 5rem 0;
+}
+
+.sec__three .carousel-item {
+	position: relative;
+	width: 910px;
+	// width: 100%;
+	// max-width: 1000px;
+	height: 487px;
+	margin: 0 0 0 12rem;
+	left: 0;
+	// right: 0;
+}
+
+.sec__three .carousel-control-prev {
+	// background-color: #000000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	width: 11.25rem;
+	background: url('assets/Layer77.png');
+}
+
+.sec__three .carousel-control-next {
+	// background-color: #000000;
+	position: absolute;
+	width: 10.3rem;
+	top: 0;
+	right: 0;
+	margin: 0;
+	background: url('assets/Layer78.png');
+}
+
+.sec__three .carousel-control-next-icon,
+.sec__three .carousel-control-prev-icon {
+	background-color: #000000 !important;
+}

@@ -1,0 +1,76 @@
+.hero__container__row {
+	& .col__two {
+		background-color: #000000;
+		margin: 0;
+		padding: 0;
+		width: 349px;
+		background: linear-gradient(90deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+			url('assets/qimage.png');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		position: relative;
+
+		& button {
+			position: absolute;
+			top: 1.3rem;
+			right: 1rem;
+			width: 5.7rem;
+			height: 1.8rem;
+			border-radius: 2px;
+			padding: 0;
+			font-size: 0.8rem;
+			background-color: var(--red-button);
+		}
+
+		& button:last-child {
+			position: absolute;
+			top: 13.4rem;
+			right: 9.8rem;
+			width: 10.5rem;
+			height: 2.5rem;
+			background-color: #000;
+			text-align: left;
+			font-size: 1.125rem;
+			letter-spacing: 1.1px;
+			border: none;
+			padding: 0 0 0 0.9rem;
+		}
+
+		&__caption {
+			position: absolute;
+			top: 10.7rem;
+			left: 0.8rem;
+			color: white;
+
+			& p {
+				text-align: left;
+				font-size: 0.9rem;
+				color: var(--logo-red);
+				padding: 0;
+				margin: 0 0 0 0;
+				line-height: auto;
+			}
+
+			& p:nth-child(3) {
+				text-align: left;
+				font-size: 1.2rem;
+				width: 13rem;
+				color: white;
+				margin-top: 0.5rem;
+				line-height: 1.6rem;
+
+				& span {
+					font-size: 1.5rem;
+				}
+			}
+
+			& h3 {
+				text-align: left;
+				font-size: 36px;
+				padding: 0;
+				margin: 0;
+			}
+		}
+	}
+}

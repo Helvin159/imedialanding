@@ -12,97 +12,6 @@
   --logo-red: #d8040e;
   --font-gray: #848484; }
 
-.navbar {
-  height: 9rem;
-  padding: 0;
-  display: block;
-  position: relative;
-  background-color: #000; }
-
-.navbar-nav {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 1rem; }
-
-.nav-item {
-  text-align: left;
-  margin: 0 0.3rem 0 0;
-  color: #fff; }
-  .nav-item a {
-    font-size: 0.9rem;
-    color: #fff !important;
-    letter-spacing: 0.15rem; }
-
-.shopping-cart-nav {
-  margin: 0.25rem 0 0 0;
-  color: #fff !important; }
-
-.navbar-collapse {
-  padding: 0;
-  margin: 6.2rem auto 0 auto;
-  border-top: 1px solid gray; }
-
-.header__search__form {
-  width: auto;
-  margin: 0 auto 0 auto;
-  display: flex; }
-  .header__search__form input {
-    width: 27.5rem;
-    font-size: 1.28rem;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    border-bottom: 1px solid #fff;
-    border-radius: 0;
-    position: absolute;
-    top: 2rem;
-    left: 22.5rem;
-    padding: 0 0 0.5rem 0;
-    letter-spacing: 0px; }
-  .header__search__form button {
-    background-color: red;
-    color: white;
-    position: absolute;
-    right: 5rem;
-    top: 2rem;
-    font-size: 0.8rem;
-    width: 9.7rem;
-    border-radius: 0.25rem;
-    border: none; }
-  .header__search__form img {
-    position: absolute;
-    top: 1.2rem;
-    left: 5.1rem; }
-
-.sec__three .carousel__container {
-  position: relative; }
-
-.sec__three .carousel-item {
-  position: relative;
-  width: 910px;
-  height: 487px;
-  margin: 0 0 0 12rem;
-  left: 0; }
-
-.sec__three .carousel-control-prev {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  width: 11.25rem;
-  background: url("assets/Layer77.png"); }
-
-.sec__three .carousel-control-next {
-  position: absolute;
-  width: 10.3rem;
-  top: 0;
-  right: 0;
-  margin: 0;
-  background: url("assets/Layer78.png"); }
-
-.sec__three .carousel-control-next-icon,
-.sec__three .carousel-control-prev-icon {
-  background-color: #000000 !important; }
-
 .hero__container__row .col__two {
   background-color: #000000;
   margin: 0;
@@ -166,25 +75,24 @@
   width: 1110px;
   height: 1008px;
   padding: 0;
-  margin: 2.55rem auto 0 5.3rem;
-  text-align: left; }
+  margin: 2.9rem auto 0 5.3rem;
+  text-align: left;
+  border: 1px solid #000; }
 
-.sec__one__row {
+.sec__one__row__col__one {
+  border: 1px solid #000;
   padding: 0;
-  margin: 0; }
-  .sec__one__row__col__one {
-    padding: 0;
-    margin: 1.75rem 0 0 0rem;
-    width: 730px;
-    background: url("assets/Layer124.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative; }
+  margin: 0.85rem 0 0 0.65rem;
+  width: 730px;
+  background: url("assets/Layer124.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
 
 .sec__one__cont__one {
   width: 350px;
   height: 263px;
-  margin: 1.75rem 0 0 1.2rem;
+  margin: 0.9rem 0 0 1.2rem;
   background: url("assets/Layer43.png");
   background-size: cover;
   background-repeat: no-repeat; }
@@ -192,12 +100,13 @@
 .sec__one__cont__two {
   width: 350px;
   height: 264px;
-  margin: 1.9rem 0 0 1.2rem;
+  margin: 1.7rem 0 0 1.2rem;
   background: url("assets/Layer44.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
 .sec__one__row__one__caption {
+  background-color: #000000;
   color: white;
   position: absolute;
   bottom: 2rem;
@@ -213,24 +122,16 @@
   .sec__one__row__one__caption div {
     width: 18rem; }
 
-.sec-one-header {
-  padding: 0; }
-  .sec-one-header h2 {
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    width: 15rem;
-    letter-spacing: 0.5px;
-    font-weight: 500;
-    font-size: 27px; }
-
 .sec__two {
   width: 1110px;
   height: 1008px;
   padding: 0;
-  margin: 5rem auto 0 5.3rem;
-  text-align: left; }
+  margin: 2.9rem auto 0 5.3rem;
+  text-align: left;
+  border: 1px solid #000; }
 
 .sec__two__row__col__one {
+  border: 1px solid #000;
   padding: 0;
   margin: 0.85rem 0 0 0.65rem;
   width: 730px;
@@ -273,43 +174,63 @@
     height: 0.2rem;
     width: 45%; }
 
-.footer {
+.navbar {
+  height: 9rem;
   padding: 0;
-  margin: 0; }
-  .footer__header {
-    text-align: left;
-    padding: 2.6rem 0 0 10.5rem;
-    background-color: var(--red-footerheader);
-    height: 8.15rem;
-    margin: 0; }
-  .footer__menu {
-    padding: 1.5rem 0 1rem 0;
-    text-align: left;
-    background-color: #000000;
-    color: white; }
-    .footer__menu h3 {
-      font-size: 0.8rem; }
-    .footer__menu ul {
-      list-style-type: none; }
-      .footer__menu ul li {
-        margin: 0;
-        padding: 0; }
-  .footer__social {
-    padding: 0;
-    margin: 0;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    background-color: #000000;
-    color: white; }
-    .footer__social h3 {
-      font-size: 1rem; }
-  .footer__copy {
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    background-color: #000000;
-    color: white; }
-    .footer__copy ul {
-      list-style-type: none; }
-      .footer__copy ul li {
-        display: inline-block; }
+  display: block;
+  position: relative;
+  background-color: #000; }
+
+.navbar-nav {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1rem; }
+
+.nav-item {
+  text-align: left;
+  margin: 0 0.3rem 0 0;
+  color: #fff; }
+  .nav-item a {
+    font-size: 0.9rem;
+    color: #fff !important;
+    letter-spacing: 0.15rem; }
+
+.shopping-cart-nav {
+  margin: 0.25rem 0 0 0;
+  color: #fff !important; }
+
+.navbar-collapse {
+  padding: 0;
+  margin: 6.2rem auto 0 auto;
+  border-top: 1px solid gray; }
+
+.header__search__form {
+  width: auto;
+  margin: 0 auto 0 auto;
+  display: flex; }
+  .header__search__form input {
+    width: 27.5rem;
+    font-size: 1.28rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    position: absolute;
+    top: 2rem;
+    left: 22.5rem;
+    padding: 0 0 0.5rem 0;
+    letter-spacing: 0px; }
+  .header__search__form button {
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 5rem;
+    top: 2rem;
+    font-size: 0.8rem;
+    width: 9.7rem;
+    border-radius: 0.25rem;
+    border: none; }
+  .header__search__form img {
+    position: absolute;
+    top: 1.2rem;
+    left: 5.1rem; }
