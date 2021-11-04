@@ -275,7 +275,7 @@ body {
     background: url("assets/Layer77.png"); }
   .sec__three .carousel-control-next {
     position: absolute;
-    width: 12.9%;
+    width: 13.6%;
     top: 0;
     right: 0;
     margin: 0;
@@ -283,15 +283,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
-  .sec__three .carousel-control-next-icon,
-  .sec__three .carousel-control-prev-icon {
-    background-color: #000000 !important; }
   .sec__three__carousel__item {
-    max-width: 75%;
-    width: 71.3%;
+    max-width: 71.2%;
+    width: 71.2%;
     position: relative;
     height: 487px;
-    margin: 0 15% 0 15%;
+    margin: 0 14.3% 0 14.3%;
     left: 0; }
     .sec__three__carousel__item__col__one {
       height: 487px;
@@ -302,13 +299,35 @@ body {
       background-size: cover; }
       .sec__three__carousel__item__col__one .container {
         position: absolute;
-        bottom: 6rem;
-        left: 1rem;
+        top: 16.9rem;
+        left: 0.9rem;
         margin: 0;
         padding: 0;
         border: 1px solid white;
         width: 53%;
         color: white; }
+        .sec__three__carousel__item__col__one .container h3 {
+          letter-spacing: 1.3px;
+          margin: 0 0 1.3rem 0; }
+        .sec__three__carousel__item__col__one .container p {
+          letter-spacing: 0.3px;
+          margin: 0;
+          border: 1px solid white;
+          padding: auto; }
+        .sec__three__carousel__item__col__one .container p:first-child {
+          margin: auto;
+          border: 1px solid white;
+          padding: 0; }
+        .sec__three__carousel__item__col__one .container p:last-child {
+          font-size: 0.8rem;
+          border: none;
+          padding: 0.75rem 0 0 0; }
+        .sec__three__carousel__item__col__one .container hr {
+          width: 9.8%;
+          height: 4px;
+          margin: 0.7rem 0 0 0;
+          background-color: white;
+          border: 1px solid #fe1; }
     .sec__three__carousel__item__col__two {
       min-width: 5%;
       padding: 0;
@@ -318,7 +337,6 @@ body {
       .sec__three__carousel__item__col__two .container-fluid {
         margin: 0;
         padding: 0;
-        width: 800px;
         position: relative; }
       .sec__three__carousel__item__col__two .container {
         position: absolute;

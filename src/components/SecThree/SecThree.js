@@ -21,23 +21,26 @@ const SecThree = () => {
 					<Row>
 						<Col className='sec__three__carousel__item__col__one'>
 							<Container>
-								<h3>Exceptionally Discreet</h3>
-								<p>&amp; 50MM F2. Edition 'Safari'</p>
-								<Button variant='danger'>IN STOCK</Button>{' '}
+								<h3>Alpine Fragments</h3>
+								<p>
+									The eternal ice is subject to constant change: in glaciers,
+									the past the present merge...
+								</p>
+								<hr />
+								<p>04.12.2021</p>
 							</Container>
 							<img src='../../assets/Layer73.png' alt='camera' />
 						</Col>
 						<Col className='sec__three__carousel__item__col__two'>
 							<Container fluid>
 								<Container>
-									<h3>Exceptionally Discreet</h3>
-									<p>&amp; 50MM F2. Edition 'Safari'</p>
+									<h3>
+										Five Takeaways on Lens Development from Two Key Leica
+										Managers{' '}
+									</h3>
+
+									<p>04.09.2021</p>
 								</Container>
-								{/*<img
-										src='../../../assets/Layer76.png'
-										alt='camera'
-										style={{ maxHeight: '450px' }}
-									/>*/}
 							</Container>
 						</Col>
 					</Row>
