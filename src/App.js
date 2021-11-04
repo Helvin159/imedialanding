@@ -92,7 +92,7 @@ const sportsOptics = [
 	{
 		name: 'Leica Geovid 8 x 42 3200.COM',
 		price: '$2,999.00',
-		img: './assets/Layer132.png',
+		img: './assets/Layer134.png',
 	},
 	{
 		name: 'Leica Noctivid 10 x 42 Green ',
