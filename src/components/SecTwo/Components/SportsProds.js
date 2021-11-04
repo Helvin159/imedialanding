@@ -9,9 +9,7 @@ const SportsProds = ({ products }) => {
 	const stuff = products;
 	return (
 		<Container className='sec__two__products' fluid>
-			<Container
-				className='sec__two__nav'
-				style={{ margin: '2.7rem auto 0 auto', textAlign: 'center' }}>
+			<Container className='sec__two__nav'>
 				<Nav style={{ margin: '0 auto' }}>
 					<Nav.Link>NEW PRODUCTS</Nav.Link>
 					<Nav.Link>SPECIAL OFFERS</Nav.Link>

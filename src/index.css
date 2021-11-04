@@ -88,10 +88,8 @@ body {
     background-color: #fff;
     margin: 0;
     padding: 0;
-    width: 845px;
-    border: 1px solid #000; }
+    width: 845px; }
   .hero__container__row__col__two {
-    border: 1px solid #f1f;
     background-color: #000000;
     margin: 0;
     padding: 0;
@@ -166,8 +164,7 @@ body {
       width: 100%;
       color: white; }
   .hero__container__carousel__row {
-    width: 100%;
-    z-index: 1000; }
+    width: 100%; }
     .hero__container__carousel__row__col__one {
       width: 60%;
       background-color: var(--hero-gray-transp); }
@@ -342,6 +339,15 @@ body {
       height: 2.5rem;
       padding: 0 0 0 1rem;
       letter-spacing: 1.5px; }
+  .sec__two__products {
+    border: 1px solid var(--font-gray);
+    padding: 0; }
+    .sec__two__products .sec__two__nav {
+      border-top: 1px solid var(--font-gray);
+      border-bottom: 1px solid var(--font-gray);
+      margin: 2.7rem 0 0 0;
+      padding: 0;
+      text-align: center; }
 
 .sec__two__cont__two {
   width: 350px;

@@ -95,6 +95,19 @@
 			letter-spacing: 1.5px;
 		}
 	}
+
+	&__products {
+		border: 1px solid var(--font-gray);
+		padding: 0;
+
+		& .sec__two__nav {
+			border-top: 1px solid var(--font-gray);
+			border-bottom: 1px solid var(--font-gray);
+			margin: 2.7rem 0 0 0;
+			padding: 0;
+			text-align: center;
+		}
+	}
 }
 
 .sec__two__cont__two {

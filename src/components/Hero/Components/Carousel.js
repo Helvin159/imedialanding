@@ -11,23 +11,11 @@ const HeroCarousel = () => {
 		<Carousel className='hero__container__carousel' fade variant='dark'>
 			<Carousel.Item className='hero__container__carousel__item'>
 				<Container>
-					<Row
-						className='hero__container__carousel__row'
-						style={{
-							border: '5px solid yellow',
-						}}>
-						<Col
-							className='hero__container__carousel__row__col__one'
-							style={{
-								border: '1px solid black',
-							}}>
+					<Row className='hero__container__carousel__row'>
+						<Col className='hero__container__carousel__row__col__one'>
 							<img src='../../../assets/camera.png' alt='camera' />
 						</Col>
-						<Col
-							className='hero__container__carousel__row__col__two'
-							style={{
-								border: '1px solid black',
-							}}>
+						<Col className='hero__container__carousel__row__col__two'>
 							<Container className='hero__container__carousel__row__col__two__caption'>
 								<h3>Exceptionally Discreet</h3>
 								<p>&amp; 50MM F2. Edition 'Safari'</p>
