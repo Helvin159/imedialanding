@@ -27,32 +27,9 @@ const SecThree = () => {
 							</Container>
 							<img src='../../assets/Layer73.png' alt='camera' />
 						</Col>
-						<Col
-							className='sec__three__carousel__item__col__two'
-							style={{
-								// border: '1px solid #0f0',
-								width: '250px',
-								padding: '0',
-								// margin: '0',
-								background: 'url(../../assets/Layer76.png)',
-								backgroundRepeat: 'no-repeat',
-								backgroundSize: 'cover',
-							}}>
-							<Container
-								fluid
-								style={{
-									margin: '0',
-									padding: '0',
-									width: '800px',
-									position: 'relative',
-								}}>
-								<Container
-									style={{
-										position: 'absolute',
-										bottom: '1rem',
-										left: '0',
-										padding: '0',
-									}}>
+						<Col className='sec__three__carousel__item__col__two'>
+							<Container fluid>
+								<Container>
 									<h3>Exceptionally Discreet</h3>
 									<p>&amp; 50MM F2. Edition 'Safari'</p>
 									<Button variant='danger'>IN STOCK</Button>{' '}

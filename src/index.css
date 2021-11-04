@@ -290,25 +290,37 @@
     margin: 0 0 2.5rem 4.1rem;
     padding: 0;
     text-align: left; }
-  .sec__three__carousel__item__col__one {
-    height: 487px;
-    width: 650px;
-    padding: 0;
-    background: url("assets/Layer73.png");
-    background-repeat: no-repeat;
-    background-size: cover; }
-    .sec__three__carousel__item__col__one .container {
-      position: absolute;
-      bottom: 3rem;
-      left: 1rem;
-      margin: 0;
-      padding: 0; }
-  .sec__three__carousel__item__col__two {
-    width: 250px;
-    padding: 0;
-    background: url("assets/Layer76.png");
-    background-repeat: no-repeat;
-    background-size: cover; }
+  .sec__three__carousel__item {
+    width: 100%; }
+    .sec__three__carousel__item__col__one {
+      height: 487px;
+      min-width: 70%;
+      padding: 0;
+      background: url("assets/Layer73.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .sec__three__carousel__item__col__one .container {
+        position: absolute;
+        bottom: 3rem;
+        left: 1rem;
+        margin: 0;
+        padding: 0; }
+    .sec__three__carousel__item__col__two {
+      min-width: 5%;
+      padding: 0;
+      background: url("assets/Layer76.png");
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .sec__three__carousel__item__col__two .container-fluid {
+        margin: 0;
+        padding: 0;
+        width: 800px;
+        position: relative; }
+      .sec__three__carousel__item__col__two .container {
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+        padding: 0; }
 
 .footer {
   padding: 0;
