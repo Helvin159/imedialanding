@@ -5,6 +5,19 @@
 	margin: 2.55rem auto 0 5.3rem;
 	text-align: left;
 	// border: 1px solid #000;
+
+	&__products {
+		border: 1px solid var(--font-gray);
+		padding: 0 0 0 0;
+	}
+
+	&__nav {
+		margin: 2.7rem 0 0 0;
+		padding: 0;
+		text-align: center;
+		border-top: 1px solid var(--font-gray);
+		border-bottom: 1px solid var(--font-gray);
+	}
 }
 
 .sec__one__row {

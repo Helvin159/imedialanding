@@ -13,15 +13,8 @@ const PhotographyProds = ({ products, pageAttr }) => {
 	console.log('Page, ', page, 'Product, ', product);
 
 	return (
-		<Container fluid style={{ padding: '0 0 0 0' }}>
-			<Container
-				style={{
-					margin: '2.7rem 0 0 0',
-					padding: '0',
-					textAlign: 'center',
-					borderTop: '1px solid #000',
-					borderBottom: '1px solid #000',
-				}}>
+		<Container fluid className='sec__one__products'>
+			<Container className='sec__one__nav'>
 				<Nav style={{ margin: '0 auto' }}>
 					<Nav.Link>NEW PRODUCTS</Nav.Link>
 					<Nav.Link>SPECIAL OFFERS</Nav.Link>
