@@ -20,10 +20,16 @@
 		}
 		& ul {
 			list-style-type: none;
+			padding: 0;
 			& li {
 				margin: 0;
 				padding: 0;
+				overflow: hidden;
 			}
+		}
+
+		& .col {
+			padding: 0 0 0 4rem;
 		}
 	}
 
@@ -34,6 +40,17 @@
 		border-bottom: 1px solid white;
 		background-color: #000000;
 		color: white;
+		height: 5.7rem;
+
+		&__buttons {
+			& ul {
+				list-style-type: none;
+			}
+
+			& li {
+				display: inline-block;
+			}
+		}
 
 		& h3 {
 			font-size: 1rem;
@@ -41,17 +58,26 @@
 	}
 
 	&__copy {
-		padding: 0;
+		padding: 1rem 0 0 0;
 		margin: 0;
 		text-align: left;
 		background-color: #000000;
 		color: white;
+		font-size: 0.8rem;
+		text-align: center;
 
 		& ul {
 			list-style-type: none;
 
 			& li {
 				display: inline-block;
+				margin: 0 0.5rem 0 0;
+				border-right: 1px solid gray;
+				padding: 0 1rem 0 1rem;
+			}
+
+			& li:last-child {
+				border-right: none;
 			}
 		}
 	}

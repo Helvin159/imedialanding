@@ -290,26 +290,42 @@
     .footer__menu h3 {
       font-size: 0.8rem; }
     .footer__menu ul {
-      list-style-type: none; }
+      list-style-type: none;
+      padding: 0; }
       .footer__menu ul li {
         margin: 0;
-        padding: 0; }
+        padding: 0;
+        overflow: hidden; }
+    .footer__menu .col {
+      padding: 0 0 0 4rem; }
   .footer__social {
     padding: 0;
     margin: 0;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     background-color: #000000;
-    color: white; }
+    color: white;
+    height: 5.7rem; }
+    .footer__social__buttons ul {
+      list-style-type: none; }
+    .footer__social__buttons li {
+      display: inline-block; }
     .footer__social h3 {
       font-size: 1rem; }
   .footer__copy {
-    padding: 0;
+    padding: 1rem 0 0 0;
     margin: 0;
     text-align: left;
     background-color: #000000;
-    color: white; }
+    color: white;
+    font-size: 0.8rem;
+    text-align: center; }
     .footer__copy ul {
       list-style-type: none; }
       .footer__copy ul li {
-        display: inline-block; }
+        display: inline-block;
+        margin: 0 0.5rem 0 0;
+        border-right: 1px solid gray;
+        padding: 0 1rem 0 1rem; }
+      .footer__copy ul li:last-child {
+        border-right: none; }
