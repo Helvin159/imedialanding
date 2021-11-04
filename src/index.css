@@ -2,19 +2,21 @@ html,
 body {
   overflow-x: hidden; }
 
+:root {
+  --red-button: #d7050e;
+  --red-arrow: #9f040b;
+  --red-footerheader: #d8040e;
+  --logo-red: #d8040e;
+  --font-gray: #848484;
+  --hero-gray: #f4f4f4;
+  --hero-gray-transp: rgba(244, 244, 244, 0.8); }
+
 * {
   font-family: 'Roboto', sans-serif; }
 
 @font-face {
   font-family: 'Roboto', sans-serif;
   src: url("assets/fonts/roboto/Roboto-Regular.ttf"); }
-
-:root {
-  --red-button: #d7050e;
-  --red-arrow: #9f040b;
-  --red-footerheader: #d8040e;
-  --logo-red: #d8040e;
-  --font-gray: #848484; }
 
 .navbar {
   height: 9rem;
@@ -76,6 +78,9 @@ body {
     position: absolute;
     top: 1.2rem;
     left: 5.1rem; }
+
+.hero__container {
+  background-color: var(--hero-gray); }
 
 .hero__container__row {
   width: auto; }
@@ -146,17 +151,33 @@ body {
         margin: 0; }
 
 .hero__container__carousel {
-  height: 478px; }
+  min-height: 478px; }
+  .hero__container__carousel__item {
+    background-color: var(--hero-gray);
+    position: relative;
+    height: 478px; }
+    .hero__container__carousel__item h2 {
+      position: absolute;
+      font-size: 12rem;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      color: white; }
   .hero__container__carousel__row {
-    width: 100%; }
+    width: 100%;
+    z-index: 1000; }
     .hero__container__carousel__row__col__one {
-      width: 60%; }
+      width: 60%;
+      background-color: var(--hero-gray-transp); }
       .hero__container__carousel__row__col__one img {
         height: 288px;
         margin-top: 6.2rem;
         margin-left: 1.6rem; }
     .hero__container__carousel__row__col__two {
-      position: relative; }
+      position: relative;
+      background-color: var(--hero-gray-transp); }
       .hero__container__carousel__row__col__two__caption {
         position: absolute;
         top: 11.2rem;

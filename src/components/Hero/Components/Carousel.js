@@ -4,12 +4,12 @@ import Col from 'react-bootstrap/Col';
 
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
-import { Container } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 
 const HeroCarousel = () => {
 	return (
 		<Carousel className='hero__container__carousel' fade variant='dark'>
-			<Carousel.Item>
+			<Carousel.Item className='hero__container__carousel__item'>
 				<Container>
 					<Row
 						className='hero__container__carousel__row'
@@ -36,6 +36,9 @@ const HeroCarousel = () => {
 						</Col>
 					</Row>
 				</Container>
+				<h2>
+					LEICA <br /> M10-P
+				</h2>
 			</Carousel.Item>
 		</Carousel>
 	);
