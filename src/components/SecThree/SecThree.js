@@ -32,7 +32,6 @@ const SecThree = () => {
 								<Container>
 									<h3>Exceptionally Discreet</h3>
 									<p>&amp; 50MM F2. Edition 'Safari'</p>
-									<Button variant='danger'>IN STOCK</Button>{' '}
 								</Container>
 								{/*<img
 										src='../../../assets/Layer76.png'

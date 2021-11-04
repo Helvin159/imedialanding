@@ -302,10 +302,13 @@ body {
       background-size: cover; }
       .sec__three__carousel__item__col__one .container {
         position: absolute;
-        bottom: 3rem;
+        bottom: 6rem;
         left: 1rem;
         margin: 0;
-        padding: 0; }
+        padding: 0;
+        border: 1px solid white;
+        width: 53%;
+        color: white; }
     .sec__three__carousel__item__col__two {
       min-width: 5%;
       padding: 0;

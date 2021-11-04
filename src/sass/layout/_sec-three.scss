@@ -68,10 +68,13 @@
 
 			& .container {
 				position: absolute;
-				bottom: 3rem;
+				bottom: 6rem;
 				left: 1rem;
 				margin: 0;
 				padding: 0;
+				border: 1px solid white;
+				width: 53%;
+				color: white;
 			}
 		}
 
