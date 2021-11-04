@@ -29,7 +29,6 @@ const SecThree = () => {
 								<hr />
 								<p>04.12.2021</p>
 							</Container>
-							<img src='../../assets/Layer73.png' alt='camera' />
 						</Col>
 						<Col className='sec__three__carousel__item__col__two'>
 							<Container fluid>
