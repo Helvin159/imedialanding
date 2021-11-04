@@ -21,7 +21,7 @@ const PhotographyProds = ({ products, pageAttr }) => {
 					<Nav.Link>BEST SELLERS</Nav.Link>
 				</Nav>
 			</Container>
-			<Row>
+			<Row className='sec__one__products__row'>
 				{stuff.map((item, index) => (
 					//  console.log(item)
 					<Col key={index} md={3}>

@@ -16,7 +16,7 @@ const SportsProds = ({ products }) => {
 					<Nav.Link>BEST SELLERS</Nav.Link>
 				</Nav>
 			</Container>
-			<Row>
+			<Row className='sec__two__products__row'>
 				{stuff.map((item, index) => (
 					//  console.log(item)
 					<Col key={index} md={3}>
