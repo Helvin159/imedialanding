@@ -7,42 +7,19 @@ import Container from 'react-bootstrap/esm/Container';
 
 const SecThree = () => {
 	return (
-		<Container
-			fluid
-			className='sec__three'
-			style={{
-				margin: '4.7rem 0 0 0',
-				padding: '0 0 8.4rem 0',
-				textAlign: 'left',
-				// border: '1px solid #000',
-			}}>
-			<Container
-				style={{
-					margin: '0 0 2.5rem 4.1rem',
-					padding: '0',
-					textAlign: 'left',
-					// border: '1px solid #000',
-				}}>
+		<Container fluid className='sec__three'>
+			<Container className='sec__three__header'>
 				<h2>INSPIRATION</h2>
 			</Container>
 
 			<Carousel
-				className='carousel__container'
+				className='sec__three__carousel__container'
 				fade
 				controls='false'
 				variant='dark'>
-				<Carousel.Item>
+				<Carousel.Item className='sec__three__carousel__item'>
 					<Row>
-						<Col
-							style={{
-								height: '487px',
-								width: '650px',
-								// border: '10px solid #0f0',
-								padding: '0',
-								background: 'url(../../assets/Layer73.png)',
-								backgroundRepeat: 'no-repeat',
-								backgroundSize: 'cover',
-							}}>
+						<Col className='sec__three__carousel__item__col__one'>
 							<Container
 								style={{
 									position: 'absolute',
@@ -58,6 +35,7 @@ const SecThree = () => {
 							<img src='../../assets/Layer73.png' alt='camera' />
 						</Col>
 						<Col
+							className='sec__three__carousel__item__col__two'
 							style={{
 								// border: '1px solid #0f0',
 								width: '250px',
