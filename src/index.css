@@ -297,6 +297,18 @@
     background: url("assets/Layer73.png");
     background-repeat: no-repeat;
     background-size: cover; }
+    .sec__three__carousel__item__col__one .container {
+      position: absolute;
+      bottom: 3rem;
+      left: 1rem;
+      margin: 0;
+      padding: 0; }
+  .sec__three__carousel__item__col__two {
+    width: 250px;
+    padding: 0;
+    background: url("assets/Layer76.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 .footer {
   padding: 0;

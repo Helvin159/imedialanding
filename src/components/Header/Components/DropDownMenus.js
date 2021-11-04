@@ -82,7 +82,9 @@ const DropDownMenus = () => {
 				<NavDropdown.Item>Tripod Heads</NavDropdown.Item>
 				<NavDropdown.Item>Software</NavDropdown.Item>
 			</NavDropdown>
-			<Nav.Item className='shopping-cart-nav'>Cart</Nav.Item>
+			<Nav.Item className='shopping-cart-nav'>
+				<i class='fas fa-shopping-cart'></i>
+			</Nav.Item>
 		</Nav>
 	);
 };

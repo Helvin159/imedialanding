@@ -20,14 +20,7 @@ const SecThree = () => {
 				<Carousel.Item className='sec__three__carousel__item'>
 					<Row>
 						<Col className='sec__three__carousel__item__col__one'>
-							<Container
-								style={{
-									position: 'absolute',
-									bottom: '3rem',
-									left: '1rem',
-									margin: 0,
-									padding: '0',
-								}}>
+							<Container>
 								<h3>Exceptionally Discreet</h3>
 								<p>&amp; 50MM F2. Edition 'Safari'</p>
 								<Button variant='danger'>IN STOCK</Button>{' '}
