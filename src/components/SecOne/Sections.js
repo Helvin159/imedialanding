@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 // import Nav from 'react-bootstrap/Nav';
 // import Button from 'react-bootstrap/Button';
 import MainContent from './Components/MainContent';
-import PhotographyProds from './Components/PhotographyProds';
+import PhotographyProds from './Components/Products';
 
 const SecOne = ({ products, pageAttr }) => {
 	// const stuff = products;
@@ -13,7 +13,7 @@ const SecOne = ({ products, pageAttr }) => {
 	const { section } = classes;
 	const sec = section.sec;
 
-	console.log(sec, ' from SecOne');
+	// console.log(sec, ' from SecOne');
 	return (
 		<Container fluid className={sec}>
 			<MainContent pageAttr={pageAttr} />

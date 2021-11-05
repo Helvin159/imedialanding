@@ -6,9 +6,9 @@
 	width: auto;
 
 	&__col__one {
-		background-color: #fff;
+		// background-color: #fff;
 		margin: 0;
-		padding: 0;
+		padding: 0 0 0 0;
 		width: 845px;
 		// border: 1px solid #000;
 	}
@@ -121,8 +121,8 @@
 			background-color: var(--hero-gray-transp);
 			& img {
 				height: 288px;
-				margin-top: 6.2rem;
-				margin-left: 1.6rem;
+				margin-top: 6.9rem;
+				margin-left: 1.9rem;
 			}
 		}
 
@@ -132,7 +132,7 @@
 
 			&__caption {
 				position: absolute;
-				top: 11.2rem;
+				top: 11.4rem;
 				left: 1rem;
 				width: 90%;
 				text-align: left;
@@ -154,8 +154,8 @@
 				& button {
 					background-color: var(--red-button);
 					width: 7rem;
-					margin: 1.1rem 0 0 0;
-					height: 2.6rem;
+					margin: 1.2rem 0 0 0;
+					height: 2.7rem;
 					border-radius: 0.1px;
 					font-size: 0.8rem;
 					font-weight: 600;

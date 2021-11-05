@@ -85,9 +85,8 @@ body {
 .hero__container__row {
   width: auto; }
   .hero__container__row__col__one {
-    background-color: #fff;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
     width: 845px; }
   .hero__container__row__col__two {
     background-color: #000000;
@@ -170,14 +169,14 @@ body {
       background-color: var(--hero-gray-transp); }
       .hero__container__carousel__row__col__one img {
         height: 288px;
-        margin-top: 6.2rem;
-        margin-left: 1.6rem; }
+        margin-top: 6.9rem;
+        margin-left: 1.9rem; }
     .hero__container__carousel__row__col__two {
       position: relative;
       background-color: var(--hero-gray-transp); }
       .hero__container__carousel__row__col__two__caption {
         position: absolute;
-        top: 11.2rem;
+        top: 11.4rem;
         left: 1rem;
         width: 90%;
         text-align: left;
@@ -194,8 +193,8 @@ body {
         .hero__container__carousel__row__col__two__caption button {
           background-color: var(--red-button);
           width: 7rem;
-          margin: 1.1rem 0 0 0;
-          height: 2.6rem;
+          margin: 1.2rem 0 0 0;
+          height: 2.7rem;
           border-radius: 0.1px;
           font-size: 0.8rem;
           font-weight: 600; }
@@ -245,7 +244,21 @@ body {
   height: 263px;
   margin: 1.75rem 0 0 1.2rem;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: relative; }
+  .sec__one__cont__one .btn {
+    position: absolute;
+    top: 12.9rem;
+    left: 1.1rem;
+    width: 13.5rem;
+    background-color: #000000;
+    text-align: left;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2px;
+    height: 2.5rem;
+    padding: 0 0 0 1rem;
+    letter-spacing: 1.5px; }
 
 .sec__one__cont__two {
   width: 350px;
@@ -253,7 +266,21 @@ body {
   margin: 1.9rem 0 0 1.2rem;
   background: url("assets/Layer44.png");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  position: relative; }
+  .sec__one__cont__two .btn {
+    position: absolute;
+    top: 12.9rem;
+    left: 1.1rem;
+    width: 12.2rem;
+    background-color: #000000;
+    text-align: left;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2px;
+    height: 2.5rem;
+    padding: 0 0 0 1rem;
+    letter-spacing: 1.5px; }
 
 .sec__one__row__one__caption {
   color: white;
