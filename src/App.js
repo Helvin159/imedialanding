@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
-import SecOne from './components/SecOne/Sections';
+import SecOne from './components/Sections/Sections';
 // import SecTwo from './components/SecTwo/SecTwo';
 import SecThree from './components/SecThree/SecThree';
 import Footer from './components/Footer/Footer';

@@ -24,7 +24,7 @@ const HeroCarousel = () => {
 						</Col>
 					</Row>
 				</Container>
-				<h2>
+				<h2 style={{ zIndex: '0' }}>
 					LEICA <br /> M10-P
 				</h2>
 			</Carousel.Item>

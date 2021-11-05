@@ -79,6 +79,9 @@ body {
     top: 1.2rem;
     left: 5.1rem; }
 
+.dropdown-menu {
+  background-color: #000000 !important; }
+
 .hero__container {
   background-color: var(--hero-gray); }
 
@@ -150,30 +153,33 @@ body {
 .hero__container__carousel {
   min-height: 478px; }
   .hero__container__carousel__item {
-    background-color: var(--hero-gray);
     position: relative;
     height: 478px; }
     .hero__container__carousel__item h2 {
       position: absolute;
-      font-size: 12rem;
+      font-size: 11rem;
       text-align: center;
       top: 50%;
-      left: 50%;
+      left: 58.5%;
       transform: translate(-50%, -50%);
       width: 100%;
-      color: white; }
+      letter-spacing: 1.1px;
+      color: white;
+      z-index: 0 !important; }
   .hero__container__carousel__row {
     width: 100%; }
     .hero__container__carousel__row__col__one {
       width: 60%;
-      background-color: var(--hero-gray-transp); }
+      background-color: rgba(244, 244, 244, 0);
+      z-index: 1 !important; }
       .hero__container__carousel__row__col__one img {
         height: 288px;
         margin-top: 6.9rem;
         margin-left: 1.9rem; }
     .hero__container__carousel__row__col__two {
       position: relative;
-      background-color: var(--hero-gray-transp); }
+      background-color: rgba(244, 244, 244, 0);
+      z-index: 1 !important; }
       .hero__container__carousel__row__col__two__caption {
         position: absolute;
         top: 11.4rem;

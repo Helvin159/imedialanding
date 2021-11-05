@@ -6,7 +6,7 @@ const DropDownMenus = () => {
 	return (
 		<Nav>
 			<NavDropdown title='Photography' id='nav-dropdown'>
-				<NavDropdown.Item>All Photography</NavDropdown.Item>
+				<NavDropdown.Item>All Photography </NavDropdown.Item>
 				<NavDropdown.Item>Cameras (By Type)</NavDropdown.Item>
 				<NavDropdown.Item>Cameras (By Model)</NavDropdown.Item>
 				<NavDropdown.Item>Photography Genre</NavDropdown.Item>
@@ -82,7 +82,7 @@ const DropDownMenus = () => {
 				<NavDropdown.Item>Tripod Heads</NavDropdown.Item>
 				<NavDropdown.Item>Software</NavDropdown.Item>
 			</NavDropdown>
-			<Nav.Item className='shopping-cart-nav'>
+			<Nav.Item className='shopping-cart-nav '>
 				<i className='fas fa-shopping-cart'></i>
 			</Nav.Item>
 		</Nav>
