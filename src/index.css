@@ -236,7 +236,6 @@ body {
     padding: 0;
     margin: 1.75rem 0 0 0rem;
     width: 730px;
-    background: url("assets/Layer124.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: relative; }
@@ -245,7 +244,6 @@ body {
   width: 350px;
   height: 263px;
   margin: 1.75rem 0 0 1.2rem;
-  background: url("assets/Layer43.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -273,9 +271,9 @@ body {
   .sec__one__row__one__caption div {
     width: 18rem; }
 
-.sec-one-header {
+.sec__one__header {
   padding: 0; }
-  .sec-one-header h2 {
+  .sec__one__header h2 {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     width: 15rem;
@@ -287,18 +285,18 @@ body {
   width: 1110px;
   height: 1008px;
   padding: 0;
-  margin: 5rem auto 0 5.3rem;
+  margin: 4.5rem auto 0 5.3rem;
   text-align: left; }
   .sec__two__main {
     padding: 0; }
     .sec__two__main h2 {
       margin: 0 0 0 0;
-      width: 15rem; }
+      width: 17rem; }
   .sec__two__row {
     padding: 0 0 0 0; }
     .sec__two__row__col__one {
       padding: 0;
-      margin: 0.85rem 0 0 0.65rem;
+      margin: 1.4rem 0 0 0.65rem;
       width: 730px;
       background: url("assets/Layer128.png");
       background-size: cover;
@@ -335,7 +333,7 @@ body {
   .sec__two .sec__two__cont__one {
     width: 350px;
     height: 263px;
-    margin: 0.9rem 0 0 1.2rem;
+    margin: 1.4rem 0 0 1.2rem;
     background: url("assets/Layer129.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -377,7 +375,7 @@ body {
 .sec__two__cont__two {
   width: 350px;
   height: 264px;
-  margin: 1.7rem 0 0 1.2rem;
+  margin: 1.8rem 0 0 1.2rem;
   background: url("assets/Layer130.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -398,7 +396,7 @@ body {
     letter-spacing: 1.5px; }
 
 .sec__three {
-  margin: 4.7rem 0 0 0;
+  margin: 5.2rem 0 0 0;
   padding: 0 0 8.4rem 0;
   text-align: left; }
   .sec__three__header {

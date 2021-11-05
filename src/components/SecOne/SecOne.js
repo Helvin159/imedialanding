@@ -8,10 +8,14 @@ import MainContent from './Components/MainContent';
 import PhotographyProds from './Components/PhotographyProds';
 
 const SecOne = ({ products, pageAttr }) => {
-	const stuff = products;
-	console.log(stuff);
+	// const stuff = products;
+	const { classes } = pageAttr;
+	const { section } = classes;
+	const sec = section.sec;
+
+	console.log(sec, ' from SecOne');
 	return (
-		<Container fluid className='sec__one'>
+		<Container fluid className={sec}>
 			<MainContent pageAttr={pageAttr} />
 			<PhotographyProds products={products} pageAttr={pageAttr} />
 		</Container>

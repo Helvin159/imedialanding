@@ -5,12 +5,14 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 // import Button from 'react-bootstrap/Button';
 
-const PhotographyProds = ({ products, pageAttr }) => {
-	// const stuff = products;
+const PhotographyProds = ({ pageAttr }) => {
+	// const { page, product } = pageAttr;
+
+	// const stuff = product;
+	// console.log('Page, ', page, 'Product, ', product);
 	const { page, product } = pageAttr;
 
-	const stuff = product;
-	console.log('Page, ', page, 'Product, ', product);
+	console.log(page, product, 'stuff');
 
 	return (
 		<Container fluid className='sec__one__products'>
@@ -22,7 +24,7 @@ const PhotographyProds = ({ products, pageAttr }) => {
 				</Nav>
 			</Container>
 			<Row className='sec__one__products__row'>
-				{stuff.map((item, index) => (
+				{product.map((item, index) => (
 					//  console.log(item)
 					<Col key={index} md={3}>
 						<Container

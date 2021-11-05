@@ -83,7 +83,7 @@ const DropDownMenus = () => {
 				<NavDropdown.Item>Software</NavDropdown.Item>
 			</NavDropdown>
 			<Nav.Item className='shopping-cart-nav'>
-				<i class='fas fa-shopping-cart'></i>
+				<i className='fas fa-shopping-cart'></i>
 			</Nav.Item>
 		</Nav>
 	);

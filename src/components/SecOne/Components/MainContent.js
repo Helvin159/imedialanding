@@ -6,21 +6,34 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
 const MainContent = ({ pageAttr }) => {
-	const { page, product } = pageAttr;
-	console.log('PageAttr at MainContent, ', page, product);
+	const { page, classes } = pageAttr;
+	const { mainContent } = classes;
+	const {
+		secHeader,
+		secRow,
+		secRowColOne,
+		secRowOneCaption,
+		secRowColTwo,
+		secContOne,
+		secContTwo,
+	} = mainContent;
+	// console.log('MainContent, ', mainContent.secOneHeader);
 	return (
 		<div>
-			<Container className='sec-one-header'>
-				<h2>PHOTOGRAPHY</h2>
+			<Container className={secHeader}>
+				<h2>{page.title}</h2>
 			</Container>
-			<Row className='sec__one__row'>
-				<Col md={{ span: 8 }} className='sec__one__row__col__one'>
-					<Container className='sec__one__row__one__caption'>
+			<Row className={secRow}>
+				<Col
+					md={{ span: 8 }}
+					className={secRowColOne}
+					style={{ background: `url(${page.mainImage})` }}>
+					<Container className={secRowOneCaption}>
 						<hr />
-						<p>Leica Q</p>
+						<p>{page.mainCaptionTitle}</p>
 						<div>
 							<h3>
-								INTRODUCING THE NEW LEICA Q2
+								{page.mainCaptionBody}
 								<span>
 									<img src='assets/redArrow.png' alt='Red Arrow Button' />
 								</span>
@@ -28,11 +41,15 @@ const MainContent = ({ pageAttr }) => {
 						</div>
 					</Container>
 				</Col>
-				<Col md={{ span: 3 }} className='sec__one__row__col__two'>
-					<Container className='sec__one__cont__one'>
+				<Col md={{ span: 3 }} className={secRowColTwo}>
+					<Container
+						className={secContOne}
+						style={{ background: `url(${page.secImage})` }}>
 						<Button variant='danger'>Limited Editions</Button>
 					</Container>
-					<Container className='sec__one__cont__two'>
+					<Container
+						className={secContTwo}
+						style={{ background: `url(${page.triImage})` }}>
 						<Button variant='danger'>Leica L Mount</Button>
 					</Container>
 				</Col>

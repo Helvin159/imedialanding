@@ -103,16 +103,16 @@ const Footer = () => {
 					<h3>FOLLOW US</h3>
 					<ul>
 						<li>
-							<i class='fab fa-facebook-square'></i>
+							<i className='fab fa-facebook-square'></i>
 						</li>
 						<li>
-							<i class='fab fa-instagram-square'></i>
+							<i className='fab fa-instagram-square'></i>
 						</li>
 						<li>
-							<i class='fab fa-youtube'></i>
+							<i className='fab fa-youtube'></i>
 						</li>
 						<li>
-							<i class='fab fa-twitter'></i>
+							<i className='fab fa-twitter'></i>
 						</li>
 					</ul>
 				</Container>
