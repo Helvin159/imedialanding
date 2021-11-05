@@ -45,12 +45,12 @@ const MainContent = ({ pageAttr }) => {
 					<Container
 						className={secContOne}
 						style={{ background: `url(${page.secImage})` }}>
-						<Button variant='danger'>Limited Editions</Button>
+						<Button variant='danger'>{page.secImgBtnCap}</Button>
 					</Container>
 					<Container
 						className={secContTwo}
 						style={{ background: `url(${page.triImage})` }}>
-						<Button variant='danger'>Leica L Mount</Button>
+						<Button variant='danger'>{page.triImgBtnCap}</Button>
 					</Container>
 				</Col>
 			</Row>

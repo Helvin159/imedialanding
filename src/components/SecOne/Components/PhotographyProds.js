@@ -10,20 +10,19 @@ const PhotographyProds = ({ pageAttr }) => {
 
 	// const stuff = product;
 	// console.log('Page, ', page, 'Product, ', product);
-	const { page, product } = pageAttr;
-
-	console.log(page, product, 'stuff');
+	const { page, product, classes } = pageAttr;
+	const { productCont } = classes;
 
 	return (
-		<Container fluid className='sec__one__products'>
-			<Container className='sec__one__nav'>
+		<Container fluid className={productCont.secProducts}>
+			<Container className={productCont.secNav}>
 				<Nav style={{ margin: '0 auto' }}>
-					<Nav.Link>NEW PRODUCTS</Nav.Link>
-					<Nav.Link>SPECIAL OFFERS</Nav.Link>
-					<Nav.Link>BEST SELLERS</Nav.Link>
+					<Nav.Link>{page.navLinkOne}</Nav.Link>
+					<Nav.Link>{page.navLinkTwo}</Nav.Link>
+					<Nav.Link>{page.navLinkThree}</Nav.Link>
 				</Nav>
 			</Container>
-			<Row className='sec__one__products__row'>
+			<Row className={productCont.secProductsRow}>
 				{product.map((item, index) => (
 					//  console.log(item)
 					<Col key={index} md={3}>

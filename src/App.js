@@ -56,11 +56,16 @@ const pageContent = {
 	photography: {
 		page: {
 			title: 'PHOTOGRAPHY',
+			navLinkOne: 'NEW PRODUCTS',
+			navLinkTwo: 'SPECIAL OFFERS',
+			navLinkThree: 'BEST SELLERS',
 			mainImage: 'assets/Layer124.png',
 			mainCaptionTitle: 'Leica Q',
 			mainCaptionBody: 'INTRODUCING THE NEW LEICA Q2',
 			secImage: 'assets/Layer43.png',
+			secImgBtnCap: 'Limited Editions',
 			triImage: 'assets/Layer44.png',
+			triImgBtnCap: 'Leica L Mount',
 		},
 		product: [
 			{
@@ -95,16 +100,26 @@ const pageContent = {
 				secContOne: 'sec__one__cont__one',
 				secContTwo: 'sec__one__cont__two',
 			},
+			productCont: {
+				secProducts: 'sec__one__products',
+				secNav: 'sec__one__nav',
+				secProductsRow: 'sec__one__products__row',
+			},
 		},
 	},
 	sports: {
 		page: {
 			title: 'SPORTS OPTICS',
+			navLinkOne: 'NEW PRODUCTS',
+			navLinkTwo: 'SPECIAL OFFERS',
+			navLinkThree: 'BEST SELLERS',
 			mainImage: 'assets/Layer128.png',
 			mainCaptionTitle: 'Leisure',
 			mainCaptionBody: 'FULL SIZE BINOCULARS',
 			secImage: 'assets/Layer129.png',
+			secImgBtnCap: 'Rangemasters',
 			triImage: 'assets/Layer130.png',
+			triImgBtnCap: 'Rangefinders',
 		},
 		product: [
 			{
@@ -138,6 +153,11 @@ const pageContent = {
 				secRowColTwo: 'sec__two__row__col__two',
 				secContOne: 'sec__two__cont__one',
 				secContTwo: 'sec__two__cont__two',
+			},
+			productCont: {
+				secProducts: 'sec__two__products',
+				secNav: 'sec__two__nav',
+				secProductsRow: 'sec__two__products__row',
 			},
 		},
 	},
